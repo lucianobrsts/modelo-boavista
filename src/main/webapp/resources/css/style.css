@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.ui-widget, .ui-widget .ui-widget {
+	font-size: 90%;
+}
+
+input[type=text] {
+	width: 200px;
+}
+
+body 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.4rem;
+	background-color: #d0d0b7;
+}
+
+h1 {
+	color: ;
+	
+}
+
+#content-buttons {
+	margin: 20px;
+}
+
+#content-inputs {
+	margin: 20px;
+}
+
+.cabecalho {
+	background-color: #000;
+	width: 100%;
+	height: 60px;
+	color: #FFF;
+	text-align: center;
+	padding-top: 20px;
+	padding-botton: 20px;
+} 

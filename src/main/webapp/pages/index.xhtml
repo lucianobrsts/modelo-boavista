@@ -1,0 +1,23 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                template="template/template.xhtml">
+                
+                <ui:define name="title"><h:outputText value="#{bundle.lbl_pagina_modelo}"/></ui:define>
+
+    <ui:define name="content">
+		
+		<div id="content-inputs">
+			<p:inputText placeholder="#{bundle.lbl_nome}" 
+			required="true" requiredMessage="#{bundle.lbl_o_campo_nao_pode_ser_enviado_em_branco}"/>
+		</div>
+		
+		<div id="content-buttons">
+			<p:commandButton icon="fa fa-floppy-o" value="#{bundle.lbl_salvar}" />
+			<p:commandButton icon="fa fa-fw fa-times" value="#{bundle.lbl_cancelar}"/>
+		</div>
+
+    </ui:define>
+</ui:composition>
